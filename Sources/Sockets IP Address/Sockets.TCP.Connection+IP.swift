@@ -3,8 +3,8 @@
 //  swift-sockets-ip-address
 //
 
-public import IP_Address
 public import IO
+public import IP_Address
 public import Kernel
 public import Sockets
 
