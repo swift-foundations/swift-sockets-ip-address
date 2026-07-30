@@ -1,0 +1,5 @@
+# SwiftLint configuration for swift-sockets-ip-address
+# Inherits from the shared parent configuration in swift-foundations
+# (which chains to the swift-institute Tier 1 ecosystem-wide canonical).
+
+parent_config: https://raw.githubusercontent.com/swift-foundations/.github/main/.swiftlint.yml
