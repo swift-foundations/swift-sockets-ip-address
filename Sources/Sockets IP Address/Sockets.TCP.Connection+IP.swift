@@ -22,6 +22,7 @@ extension Sockets.TCP.Connection {
                 to: Kernel.Socket.Address.IPv4(ip: address, port: port),
                 io: io
             )
+
         case .v6(let address):
             return try await connect(
                 to: Kernel.Socket.Address.IPv6(ip: address, port: port),
