@@ -1,14 +1,9 @@
-//
-//  Kernel.Socket.Address.IPv6+IP.swift
-//  swift-sockets-ip-address
-//
-
 public import IP_Address
 public import Kernel
 import Sockets
 
 extension Kernel.Socket.Address.IPv6 {
-    /// Creates a typed socket address from the canonical RFC 4291 address.
+
     public init(
         ip: IPv6.Address,
         port: UInt16 = 0,
@@ -23,7 +18,6 @@ extension Kernel.Socket.Address.IPv6 {
         )
     }
 
-    /// The canonical RFC 4291 address as eight host-order segments.
     public var ip: IPv6.Address {
         IPv6.Address(
             segments.0,

@@ -1,8 +1,3 @@
-//
-//  Sockets.IP.Address.Tests.swift
-//  swift-sockets-ip-address
-//
-
 import IO
 import Kernel
 import Sockets_IP_Address
