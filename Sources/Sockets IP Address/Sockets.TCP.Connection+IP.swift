@@ -5,7 +5,7 @@
 
 public import IO
 public import IP_Address
-public import Kernel
+import Kernel
 public import Sockets
 
 extension Sockets.TCP.Connection {

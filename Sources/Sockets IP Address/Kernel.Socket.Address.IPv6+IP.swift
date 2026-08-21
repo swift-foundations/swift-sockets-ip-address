@@ -5,7 +5,7 @@
 
 public import IP_Address
 public import Kernel
-public import Sockets
+import Sockets
 
 extension Kernel.Socket.Address.IPv6 {
     /// Creates a typed socket address from the canonical RFC 4291 address.
